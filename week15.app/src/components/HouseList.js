@@ -1,6 +1,6 @@
 import React from 'react';
 import { House } from House.js;
-import { housesAPI } from '../housesAPI';
+import { housesAPI } from housesAPI;
 
 export default class HousesList extends React.Component {
     state = {
